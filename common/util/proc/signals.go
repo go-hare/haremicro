@@ -5,7 +5,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/kong11213613/haremicro/logger"
+	"github.com/go-hare/haremicro/logger"
 )
 
 const timeFormat = "0102150405"

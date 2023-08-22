@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kong11213613/haremicro"
-	"github.com/kong11213613/haremicro/client"
-	greeter "github.com/kong11213613/haremicro/examples/helloworld/proto"
-	"github.com/kong11213613/haremicro/metadata"
-	"github.com/kong11213613/haremicro/registry"
-	"github.com/kong11213613/haremicro/registry/etcd"
+	"github.com/go-hare/haremicro"
+	"github.com/go-hare/haremicro/client"
+	greeter "github.com/go-hare/haremicro/examples/helloworld/proto"
+	"github.com/go-hare/haremicro/metadata"
+	"github.com/go-hare/haremicro/registry"
+	"github.com/go-hare/haremicro/registry/etcd"
 )
 
 func call(i int, c client.Client) {

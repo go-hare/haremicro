@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kong11213613/haremicro/common/util/json"
-	util "github.com/kong11213613/haremicro/common/util/registry"
-	"github.com/kong11213613/haremicro/logger"
-	"github.com/kong11213613/haremicro/registry"
+	"github.com/go-hare/haremicro/common/util/json"
+	util "github.com/go-hare/haremicro/common/util/registry"
+	"github.com/go-hare/haremicro/logger"
+	"github.com/go-hare/haremicro/registry"
 	"golang.org/x/sync/singleflight"
 )
 

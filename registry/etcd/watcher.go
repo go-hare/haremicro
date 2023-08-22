@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kong11213613/haremicro/registry"
+	"github.com/go-hare/haremicro/registry"
 	"go.etcd.io/etcd/client/v3"
 )
 

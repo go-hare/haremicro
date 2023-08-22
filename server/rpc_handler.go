@@ -3,7 +3,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/kong11213613/haremicro/registry"
+	"github.com/go-hare/haremicro/registry"
 )
 
 type rpcHandler struct {

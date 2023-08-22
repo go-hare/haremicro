@@ -6,10 +6,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/kong11213613/haremicro/client"
-	msignal "github.com/kong11213613/haremicro/common/util/signal"
-	"github.com/kong11213613/haremicro/logger"
-	"github.com/kong11213613/haremicro/server"
+	"github.com/go-hare/haremicro/client"
+	msignal "github.com/go-hare/haremicro/common/util/signal"
+	"github.com/go-hare/haremicro/logger"
+	"github.com/go-hare/haremicro/server"
 )
 
 type service struct {

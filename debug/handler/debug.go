@@ -5,12 +5,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/kong11213613/haremicro/client"
-	"github.com/kong11213613/haremicro/debug/log"
-	proto "github.com/kong11213613/haremicro/debug/proto"
-	"github.com/kong11213613/haremicro/debug/stats"
-	"github.com/kong11213613/haremicro/debug/trace"
-	"github.com/kong11213613/haremicro/server"
+	"github.com/go-hare/haremicro/client"
+	"github.com/go-hare/haremicro/debug/log"
+	proto "github.com/go-hare/haremicro/debug/proto"
+	"github.com/go-hare/haremicro/debug/stats"
+	"github.com/go-hare/haremicro/debug/trace"
+	"github.com/go-hare/haremicro/server"
 )
 
 // NewHandler returns an instance of the Debug Handler

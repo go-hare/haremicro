@@ -2,7 +2,7 @@
 package build
 
 import (
-	"github.com/kong11213613/haremicro/runtime/local/source"
+	"github.com/go-hare/haremicro/runtime/local/source"
 )
 
 // Builder builds binaries

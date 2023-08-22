@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/kong11213613/haremicro/api/server"
-	"github.com/kong11213613/haremicro/api/server/cors"
-	"github.com/kong11213613/haremicro/logger"
+	"github.com/go-hare/haremicro/api/server"
+	"github.com/go-hare/haremicro/api/server/cors"
+	"github.com/go-hare/haremicro/logger"
 )
 
 type httpServer struct {

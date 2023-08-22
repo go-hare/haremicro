@@ -3,8 +3,8 @@ package selector
 import (
 	"time"
 
-	"github.com/kong11213613/haremicro/registry"
-	"github.com/kong11213613/haremicro/registry/cache"
+	"github.com/go-hare/haremicro/registry"
+	"github.com/go-hare/haremicro/registry/cache"
 )
 
 type registrySelector struct {

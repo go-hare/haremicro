@@ -1,6 +1,6 @@
 package rescue
 
-import "github.com/kong11213613/haremicro/logger"
+import "github.com/go-hare/haremicro/logger"
 
 // Recover is used with defer to do cleanup on panics.
 // Use it like:

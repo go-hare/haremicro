@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/kong11213613/haremicro/codec"
-	"github.com/kong11213613/haremicro/transport"
+	"github.com/go-hare/haremicro/codec"
+	"github.com/go-hare/haremicro/transport"
 )
 
 type rpcResponse struct {

@@ -4,7 +4,7 @@ import (
 	"crypto/tls"
 	"net/http"
 
-	"github.com/kong11213613/haremicro/api/server/cors"
+	"github.com/go-hare/haremicro/api/server/cors"
 )
 
 type Option func(o *Options)

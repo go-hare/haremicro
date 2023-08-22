@@ -1,4 +1,4 @@
-module github.com/kong11213613/haremicro
+module github.com/go-hare/haremicro
 
 go 1.15
 

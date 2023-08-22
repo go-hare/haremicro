@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	mtime "github.com/kong11213613/haremicro/common/util/time"
+	mtime "github.com/go-hare/haremicro/common/util/time"
 )
 
 type (

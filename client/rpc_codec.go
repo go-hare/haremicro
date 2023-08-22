@@ -4,15 +4,15 @@ import (
 	"bytes"
 	errs "errors"
 
-	"github.com/kong11213613/haremicro/codec"
-	raw "github.com/kong11213613/haremicro/codec/bytes"
-	"github.com/kong11213613/haremicro/codec/grpc"
-	"github.com/kong11213613/haremicro/codec/json"
-	"github.com/kong11213613/haremicro/codec/jsonrpc"
-	"github.com/kong11213613/haremicro/codec/proto"
-	"github.com/kong11213613/haremicro/errors"
-	"github.com/kong11213613/haremicro/registry"
-	"github.com/kong11213613/haremicro/transport"
+	"github.com/go-hare/haremicro/codec"
+	raw "github.com/go-hare/haremicro/codec/bytes"
+	"github.com/go-hare/haremicro/codec/grpc"
+	"github.com/go-hare/haremicro/codec/json"
+	"github.com/go-hare/haremicro/codec/jsonrpc"
+	"github.com/go-hare/haremicro/codec/proto"
+	"github.com/go-hare/haremicro/errors"
+	"github.com/go-hare/haremicro/registry"
+	"github.com/go-hare/haremicro/transport"
 )
 
 const (

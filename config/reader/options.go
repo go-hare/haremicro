@@ -1,8 +1,8 @@
 package reader
 
 import (
-	"github.com/kong11213613/haremicro/config/encoder"
-	"github.com/kong11213613/haremicro/config/encoder/json"
+	"github.com/go-hare/haremicro/config/encoder"
+	"github.com/go-hare/haremicro/config/encoder/json"
 )
 
 type Options struct {

@@ -3,8 +3,8 @@ package kafka
 import (
 	"context"
 
-	"github.com/kong11213613/haremicro/broker"
-	"github.com/kong11213613/haremicro/server"
+	"github.com/go-hare/haremicro/broker"
+	"github.com/go-hare/haremicro/server"
 )
 
 // setSubscribeOption returns a function to setup a context with given value.

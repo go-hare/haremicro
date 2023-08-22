@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
+	"github.com/go-hare/haremicro/common/util/collection/ring"
 	"github.com/google/uuid"
-	"github.com/kong11213613/haremicro/common/util/collection/ring"
 )
 
 type memTracer struct {

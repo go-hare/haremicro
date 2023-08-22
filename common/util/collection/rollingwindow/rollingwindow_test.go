@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	mstrings "github.com/kong11213613/haremicro/common/util/strings"
+	mstrings "github.com/go-hare/haremicro/common/util/strings"
 	"github.com/stretchr/testify/assert"
 )
 

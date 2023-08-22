@@ -4,9 +4,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/kong11213613/haremicro/common/util/collection"
-	"github.com/kong11213613/haremicro/common/util/lang"
-	"github.com/kong11213613/haremicro/common/util/threading"
+	"github.com/go-hare/haremicro/common/util/collection"
+	"github.com/go-hare/haremicro/common/util/lang"
+	"github.com/go-hare/haremicro/common/util/threading"
 )
 
 const (

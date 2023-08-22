@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kong11213613/haremicro/broker"
-	"github.com/kong11213613/haremicro/broker/asynq"
-	"github.com/kong11213613/haremicro/logger"
+	"github.com/go-hare/haremicro/broker"
+	"github.com/go-hare/haremicro/broker/asynq"
+	"github.com/go-hare/haremicro/logger"
 )
 
 var (

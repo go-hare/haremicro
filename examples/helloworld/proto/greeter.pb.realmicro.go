@@ -11,8 +11,8 @@ import (
 
 import (
 	context "context"
-	client "github.com/kong11213613/haremicro/client"
-	server "github.com/kong11213613/haremicro/server"
+	client "github.com/go-hare/haremicro/client"
+	server "github.com/go-hare/haremicro/server"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

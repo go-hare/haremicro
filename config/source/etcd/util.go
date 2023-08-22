@@ -3,7 +3,7 @@ package etcd
 import (
 	"strings"
 
-	"github.com/kong11213613/haremicro/config/encoder"
+	"github.com/go-hare/haremicro/config/encoder"
 	"go.etcd.io/etcd/api/v3/mvccpb"
 	"go.etcd.io/etcd/client/v3"
 )

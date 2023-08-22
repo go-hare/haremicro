@@ -12,17 +12,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kong11213613/haremicro/broker"
-	"github.com/kong11213613/haremicro/codec"
-	raw "github.com/kong11213613/haremicro/codec/bytes"
-	"github.com/kong11213613/haremicro/common/util/addr"
-	"github.com/kong11213613/haremicro/common/util/backoff"
-	mnet "github.com/kong11213613/haremicro/common/util/net"
-	"github.com/kong11213613/haremicro/common/util/socket"
-	"github.com/kong11213613/haremicro/logger"
-	"github.com/kong11213613/haremicro/metadata"
-	"github.com/kong11213613/haremicro/registry"
-	"github.com/kong11213613/haremicro/transport"
+	"github.com/go-hare/haremicro/broker"
+	"github.com/go-hare/haremicro/codec"
+	raw "github.com/go-hare/haremicro/codec/bytes"
+	"github.com/go-hare/haremicro/common/util/addr"
+	"github.com/go-hare/haremicro/common/util/backoff"
+	mnet "github.com/go-hare/haremicro/common/util/net"
+	"github.com/go-hare/haremicro/common/util/socket"
+	"github.com/go-hare/haremicro/logger"
+	"github.com/go-hare/haremicro/metadata"
+	"github.com/go-hare/haremicro/registry"
+	"github.com/go-hare/haremicro/transport"
 )
 
 type rpcServer struct {

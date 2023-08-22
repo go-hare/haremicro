@@ -2,7 +2,7 @@
   "name": "haremicro",
   "version": "0.0.1",
   "main": "index.js",
-  "repository": "git@github.com:kong11213613/haremicro.git",
+  "repository": "git@github.com:go-hare/haremicro.git",
   "author": "",
   "license": "BSD-2-clause"
 }

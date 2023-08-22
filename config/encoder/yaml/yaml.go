@@ -2,7 +2,7 @@ package yaml
 
 import (
 	"github.com/ghodss/yaml"
-	"github.com/kong11213613/haremicro/config/encoder"
+	"github.com/go-hare/haremicro/config/encoder"
 )
 
 type yamlEncoder struct{}

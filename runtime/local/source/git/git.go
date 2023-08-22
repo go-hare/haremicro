@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/go-git/go-git/v5"
-	"github.com/kong11213613/haremicro/runtime/local/source"
+	"github.com/go-hare/haremicro/runtime/local/source"
 )
 
 // Source retrieves source code

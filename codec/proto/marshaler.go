@@ -3,8 +3,8 @@ package proto
 import (
 	"bytes"
 
+	"github.com/go-hare/haremicro/codec"
 	"github.com/golang/protobuf/proto"
-	"github.com/kong11213613/haremicro/codec"
 	"github.com/oxtoacart/bpool"
 )
 

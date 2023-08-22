@@ -3,7 +3,7 @@ package json
 import (
 	"encoding/json"
 
-	"github.com/kong11213613/haremicro/config/encoder"
+	"github.com/go-hare/haremicro/config/encoder"
 )
 
 type jsonEncoder struct{}

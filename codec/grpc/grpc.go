@@ -8,8 +8,8 @@ import (
 	"io"
 	"strings"
 
+	"github.com/go-hare/haremicro/codec"
 	"github.com/golang/protobuf/proto"
-	"github.com/kong11213613/haremicro/codec"
 )
 
 type Codec struct {

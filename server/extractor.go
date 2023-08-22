@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/kong11213613/haremicro/registry"
+	"github.com/go-hare/haremicro/registry"
 )
 
 func extractValue(v reflect.Type, d int) *registry.Value {

@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/kong11213613/haremicro/metadata"
-	"github.com/kong11213613/haremicro/registry"
-	"github.com/kong11213613/haremicro/selector"
+	"github.com/go-hare/haremicro/metadata"
+	"github.com/go-hare/haremicro/registry"
+	"github.com/go-hare/haremicro/selector"
 )
 
 // Write sets the status and body on a http ResponseWriter

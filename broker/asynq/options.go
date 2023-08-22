@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kong11213613/haremicro/broker"
+	"github.com/go-hare/haremicro/broker"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	dlog "github.com/kong11213613/haremicro/debug/log"
+	dlog "github.com/go-hare/haremicro/debug/log"
 )
 
 func init() {

@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/kong11213613/haremicro/config/source"
+	"github.com/go-hare/haremicro/config/source"
 	"go.etcd.io/etcd/api/v3/mvccpb"
 	"go.etcd.io/etcd/client/v3"
 )

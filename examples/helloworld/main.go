@@ -3,14 +3,14 @@ package main
 import (
 	"context"
 
-	"github.com/kong11213613/haremicro"
-	"github.com/kong11213613/haremicro/config"
-	cetcd "github.com/kong11213613/haremicro/config/source/etcd"
-	greeter "github.com/kong11213613/haremicro/examples/helloworld/proto"
-	"github.com/kong11213613/haremicro/logger"
-	mlogrus "github.com/kong11213613/haremicro/logger/logrus"
-	"github.com/kong11213613/haremicro/registry"
-	"github.com/kong11213613/haremicro/registry/etcd"
+	"github.com/go-hare/haremicro"
+	"github.com/go-hare/haremicro/config"
+	cetcd "github.com/go-hare/haremicro/config/source/etcd"
+	greeter "github.com/go-hare/haremicro/examples/helloworld/proto"
+	"github.com/go-hare/haremicro/logger"
+	mlogrus "github.com/go-hare/haremicro/logger/logrus"
+	"github.com/go-hare/haremicro/registry"
+	"github.com/go-hare/haremicro/registry/etcd"
 	"github.com/sirupsen/logrus"
 )
 

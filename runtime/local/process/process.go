@@ -4,7 +4,7 @@ package process
 import (
 	"io"
 
-	"github.com/kong11213613/haremicro/runtime/local/build"
+	"github.com/go-hare/haremicro/runtime/local/build"
 )
 
 // Process manages a running process

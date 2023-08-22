@@ -1,6 +1,6 @@
 package stream
 
-import "github.com/kong11213613/haremicro/errors"
+import "github.com/go-hare/haremicro/errors"
 
 const defaultRetryTimes = 3
 

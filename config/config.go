@@ -1,9 +1,9 @@
 package config
 
 import (
-	"github.com/kong11213613/haremicro/config/reader"
-	"github.com/kong11213613/haremicro/config/source"
-	"github.com/kong11213613/haremicro/config/source/file"
+	"github.com/go-hare/haremicro/config/reader"
+	"github.com/go-hare/haremicro/config/source"
+	"github.com/go-hare/haremicro/config/source/file"
 )
 
 // Config is an interface abstraction for dynamic configuration

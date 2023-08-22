@@ -3,7 +3,7 @@ package file
 import (
 	"strings"
 
-	"github.com/kong11213613/haremicro/config/encoder"
+	"github.com/go-hare/haremicro/config/encoder"
 )
 
 func format(p string, e encoder.Encoder) string {

@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"strconv"
 
-	"github.com/kong11213613/haremicro/runtime/local/process"
+	"github.com/go-hare/haremicro/runtime/local/process"
 )
 
 func (p *Process) Exec(exe *process.Executable) error {

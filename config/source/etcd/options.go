@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kong11213613/haremicro/config/source"
+	"github.com/go-hare/haremicro/config/source"
 )
 
 type addressKey struct{}

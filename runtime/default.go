@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kong11213613/haremicro/logger"
-	"github.com/kong11213613/haremicro/runtime/local/git"
+	"github.com/go-hare/haremicro/logger"
+	"github.com/go-hare/haremicro/runtime/local/git"
 	"github.com/nxadm/tail"
 )
 

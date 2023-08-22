@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/kong11213613/haremicro/common/util/rescue"
+	"github.com/go-hare/haremicro/common/util/rescue"
 )
 
 // GoSafe runs the given fn using another goroutine, recovers if fn panics.

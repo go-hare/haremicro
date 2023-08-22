@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/kong11213613/haremicro/codec"
-	raw "github.com/kong11213613/haremicro/codec/bytes"
-	"github.com/kong11213613/haremicro/codec/grpc"
-	"github.com/kong11213613/haremicro/codec/json"
-	"github.com/kong11213613/haremicro/codec/proto"
-	"github.com/kong11213613/haremicro/transport"
+	"github.com/go-hare/haremicro/codec"
+	raw "github.com/go-hare/haremicro/codec/bytes"
+	"github.com/go-hare/haremicro/codec/grpc"
+	"github.com/go-hare/haremicro/codec/json"
+	"github.com/go-hare/haremicro/codec/proto"
+	"github.com/go-hare/haremicro/transport"
 	"github.com/oxtoacart/bpool"
 	"github.com/pkg/errors"
 )

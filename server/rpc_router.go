@@ -16,9 +16,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/kong11213613/haremicro/codec"
-	merrors "github.com/kong11213613/haremicro/errors"
-	"github.com/kong11213613/haremicro/logger"
+	"github.com/go-hare/haremicro/codec"
+	merrors "github.com/go-hare/haremicro/errors"
+	"github.com/go-hare/haremicro/logger"
 )
 
 var (

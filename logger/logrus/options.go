@@ -1,7 +1,7 @@
 package logrus
 
 import (
-	"github.com/kong11213613/haremicro/logger"
+	"github.com/go-hare/haremicro/logger"
 	"github.com/sirupsen/logrus"
 )
 

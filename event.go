@@ -3,7 +3,7 @@ package haremicro
 import (
 	"context"
 
-	"github.com/kong11213613/haremicro/client"
+	"github.com/go-hare/haremicro/client"
 )
 
 type event struct {

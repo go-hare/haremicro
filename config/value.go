@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"github.com/kong11213613/haremicro/config/reader"
+	"github.com/go-hare/haremicro/config/reader"
 )
 
 type value struct{}

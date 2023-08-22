@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
+	"github.com/go-hare/haremicro/cache"
 	"github.com/go-redis/redis/v8"
-	"github.com/kong11213613/haremicro/cache"
 )
 
 // NewCache returns a new redis cache.

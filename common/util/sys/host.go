@@ -3,7 +3,7 @@ package sys
 import (
 	"os"
 
-	"github.com/kong11213613/haremicro/common/util/strings"
+	"github.com/go-hare/haremicro/common/util/strings"
 )
 
 var hostname string

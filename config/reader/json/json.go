@@ -4,11 +4,11 @@ import (
 	"errors"
 	"time"
 
+	"github.com/go-hare/haremicro/config/encoder"
+	"github.com/go-hare/haremicro/config/encoder/json"
+	"github.com/go-hare/haremicro/config/reader"
+	"github.com/go-hare/haremicro/config/source"
 	"github.com/imdario/mergo"
-	"github.com/kong11213613/haremicro/config/encoder"
-	"github.com/kong11213613/haremicro/config/encoder/json"
-	"github.com/kong11213613/haremicro/config/reader"
-	"github.com/kong11213613/haremicro/config/source"
 )
 
 type jsonReader struct {

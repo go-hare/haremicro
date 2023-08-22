@@ -4,7 +4,7 @@ package selector
 import (
 	"errors"
 
-	"github.com/kong11213613/haremicro/registry"
+	"github.com/go-hare/haremicro/registry"
 )
 
 // Selector builds on the registry as a mechanism to pick nodes

@@ -3,7 +3,7 @@ package etcd
 import (
 	"context"
 
-	"github.com/kong11213613/haremicro/registry"
+	"github.com/go-hare/haremicro/registry"
 	"go.uber.org/zap"
 )
 

@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"io"
 
+	"github.com/go-hare/haremicro/common/util/sync"
 	red "github.com/go-redis/redis/v8"
-	"github.com/kong11213613/haremicro/common/util/sync"
 )
 
 var clusterManager = sync.NewResourceManager()

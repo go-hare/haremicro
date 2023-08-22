@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kong11213613/haremicro/config/loader"
-	"github.com/kong11213613/haremicro/config/reader"
-	"github.com/kong11213613/haremicro/config/reader/json"
-	"github.com/kong11213613/haremicro/config/source"
+	"github.com/go-hare/haremicro/config/loader"
+	"github.com/go-hare/haremicro/config/reader"
+	"github.com/go-hare/haremicro/config/reader/json"
+	"github.com/go-hare/haremicro/config/source"
 )
 
 type memory struct {

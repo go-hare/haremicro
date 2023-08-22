@@ -1,7 +1,7 @@
 package registry
 
 import (
-	"github.com/kong11213613/haremicro/registry"
+	"github.com/go-hare/haremicro/registry"
 )
 
 func addNodes(old, neu []*registry.Node) []*registry.Node {

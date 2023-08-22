@@ -17,14 +17,14 @@ import (
 	"sync"
 	"time"
 
+	"github.com/go-hare/haremicro/codec/json"
+	maddr "github.com/go-hare/haremicro/common/util/addr"
+	mnet "github.com/go-hare/haremicro/common/util/net"
+	mtls "github.com/go-hare/haremicro/common/util/tls"
+	merrors "github.com/go-hare/haremicro/errors"
+	"github.com/go-hare/haremicro/registry"
+	"github.com/go-hare/haremicro/registry/cache"
 	"github.com/google/uuid"
-	"github.com/kong11213613/haremicro/codec/json"
-	maddr "github.com/kong11213613/haremicro/common/util/addr"
-	mnet "github.com/kong11213613/haremicro/common/util/net"
-	mtls "github.com/kong11213613/haremicro/common/util/tls"
-	merrors "github.com/kong11213613/haremicro/errors"
-	"github.com/kong11213613/haremicro/registry"
-	"github.com/kong11213613/haremicro/registry/cache"
 	"golang.org/x/net/http2"
 )
 

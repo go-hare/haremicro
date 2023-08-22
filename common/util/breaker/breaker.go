@@ -6,11 +6,11 @@ import (
 	"strings"
 	"sync"
 
-	mmath "github.com/kong11213613/haremicro/common/util/math"
-	"github.com/kong11213613/haremicro/common/util/proc"
-	mstrings "github.com/kong11213613/haremicro/common/util/strings"
-	mtime "github.com/kong11213613/haremicro/common/util/time"
-	"github.com/kong11213613/haremicro/logger"
+	mmath "github.com/go-hare/haremicro/common/util/math"
+	"github.com/go-hare/haremicro/common/util/proc"
+	mstrings "github.com/go-hare/haremicro/common/util/strings"
+	mtime "github.com/go-hare/haremicro/common/util/time"
+	"github.com/go-hare/haremicro/logger"
 )
 
 const (

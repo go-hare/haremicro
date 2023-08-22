@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/kong11213613/haremicro/config"
-	"github.com/kong11213613/haremicro/config/encoder/yaml"
-	"github.com/kong11213613/haremicro/config/reader"
-	"github.com/kong11213613/haremicro/config/reader/json"
-	"github.com/kong11213613/haremicro/config/source/file"
+	"github.com/go-hare/haremicro/config"
+	"github.com/go-hare/haremicro/config/encoder/yaml"
+	"github.com/go-hare/haremicro/config/reader"
+	"github.com/go-hare/haremicro/config/reader/json"
+	"github.com/go-hare/haremicro/config/source/file"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kong11213613/haremicro/common/util/collection/ring"
+	"github.com/go-hare/haremicro/common/util/collection/ring"
 )
 
 type stats struct {

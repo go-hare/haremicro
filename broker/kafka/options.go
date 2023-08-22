@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/Shopify/sarama"
-	"github.com/kong11213613/haremicro/broker"
-	"github.com/kong11213613/haremicro/logger"
+	"github.com/go-hare/haremicro/broker"
+	"github.com/go-hare/haremicro/logger"
 )
 
 var (

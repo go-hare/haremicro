@@ -1,6 +1,6 @@
 package strings
 
-import "github.com/kong11213613/haremicro/common/util/lang"
+import "github.com/go-hare/haremicro/common/util/lang"
 
 const defaultMask = '*'
 

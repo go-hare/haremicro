@@ -1,7 +1,7 @@
 package redis
 
 import (
-	"github.com/kong11213613/haremicro/broker"
+	"github.com/go-hare/haremicro/broker"
 )
 
 var (

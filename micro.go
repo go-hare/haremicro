@@ -4,8 +4,8 @@ package haremicro
 import (
 	"context"
 
-	"github.com/kong11213613/haremicro/client"
-	"github.com/kong11213613/haremicro/server"
+	"github.com/go-hare/haremicro/client"
+	"github.com/go-hare/haremicro/server"
 )
 
 type serviceKey struct{}

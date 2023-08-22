@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/kong11213613/haremicro/client"
-	"github.com/kong11213613/haremicro/common/util/breaker"
-	"github.com/kong11213613/haremicro/errors"
+	"github.com/go-hare/haremicro/client"
+	"github.com/go-hare/haremicro/common/util/breaker"
+	"github.com/go-hare/haremicro/errors"
 )
 
 type BreakerMethod int

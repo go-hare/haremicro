@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kong11213613/haremicro/client"
+	"github.com/go-hare/haremicro/client"
 )
 
 // Options contains configuration for the Store

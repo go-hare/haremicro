@@ -3,8 +3,8 @@ package log
 import (
 	"sync"
 
+	"github.com/go-hare/haremicro/common/util/collection/ring"
 	"github.com/google/uuid"
-	"github.com/kong11213613/haremicro/common/util/collection/ring"
 )
 
 // Should stream from OS

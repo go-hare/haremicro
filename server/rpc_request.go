@@ -3,9 +3,9 @@ package server
 import (
 	"bytes"
 
-	"github.com/kong11213613/haremicro/codec"
-	"github.com/kong11213613/haremicro/common/util/buf"
-	"github.com/kong11213613/haremicro/transport"
+	"github.com/go-hare/haremicro/codec"
+	"github.com/go-hare/haremicro/common/util/buf"
+	"github.com/go-hare/haremicro/transport"
 )
 
 type rpcRequest struct {

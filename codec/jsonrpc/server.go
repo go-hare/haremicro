@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/kong11213613/haremicro/codec"
+	"github.com/go-hare/haremicro/codec"
 )
 
 type serverCodec struct {

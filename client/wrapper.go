@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/kong11213613/haremicro/registry"
+	"github.com/go-hare/haremicro/registry"
 )
 
 // CallFunc represents the individual call func

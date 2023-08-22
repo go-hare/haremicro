@@ -6,10 +6,10 @@ import (
 	"sync"
 
 	"github.com/Shopify/sarama"
+	"github.com/go-hare/haremicro/broker"
+	"github.com/go-hare/haremicro/codec/json"
+	"github.com/go-hare/haremicro/logger"
 	"github.com/google/uuid"
-	"github.com/kong11213613/haremicro/broker"
-	"github.com/kong11213613/haremicro/codec/json"
-	"github.com/kong11213613/haremicro/logger"
 )
 
 type kBroker struct {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kong11213613/haremicro/codec"
+	"github.com/go-hare/haremicro/codec"
 )
 
 // Client is the interface used to make requests to services.

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kong11213613/haremicro/common/util/backoff"
+	"github.com/go-hare/haremicro/common/util/backoff"
 )
 
 type BackoffFunc func(ctx context.Context, req Request, attempts int) (time.Duration, error)

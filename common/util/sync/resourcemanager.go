@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	merrors "github.com/kong11213613/haremicro/errors"
+	merrors "github.com/go-hare/haremicro/errors"
 )
 
 // A ResourceManager is a manager that used to manage resources.

@@ -4,8 +4,8 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/kong11213613/haremicro/codec"
-	"github.com/kong11213613/haremicro/registry"
+	"github.com/go-hare/haremicro/codec"
+	"github.com/go-hare/haremicro/registry"
 )
 
 type Options struct {

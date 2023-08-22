@@ -7,11 +7,11 @@ import (
 	"os/signal"
 	"time"
 
+	"github.com/go-hare/haremicro/codec"
+	signalutil "github.com/go-hare/haremicro/common/util/signal"
+	"github.com/go-hare/haremicro/logger"
+	"github.com/go-hare/haremicro/registry"
 	"github.com/google/uuid"
-	"github.com/kong11213613/haremicro/codec"
-	signalutil "github.com/kong11213613/haremicro/common/util/signal"
-	"github.com/kong11213613/haremicro/logger"
-	"github.com/kong11213613/haremicro/registry"
 )
 
 // Server is a simple micro server abstraction

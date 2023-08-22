@@ -2,7 +2,7 @@
 package local
 
 import (
-	"github.com/kong11213613/haremicro/runtime"
+	"github.com/go-hare/haremicro/runtime"
 )
 
 // NewRuntime returns a new local runtime

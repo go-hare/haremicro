@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kong11213613/haremicro/broker"
-	"github.com/kong11213613/haremicro/logger"
+	"github.com/go-hare/haremicro/broker"
+	"github.com/go-hare/haremicro/logger"
 )
 
 func subscribe(t *testing.T, b broker.Broker, topic string, handle broker.Handler, opts ...broker.SubscribeOption) broker.Subscriber {

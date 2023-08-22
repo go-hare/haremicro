@@ -1,10 +1,10 @@
 package servicegroup
 
 import (
-	"github.com/kong11213613/haremicro/common/util/proc"
-	"github.com/kong11213613/haremicro/common/util/sync"
-	"github.com/kong11213613/haremicro/common/util/threading"
-	"github.com/kong11213613/haremicro/logger"
+	"github.com/go-hare/haremicro/common/util/proc"
+	"github.com/go-hare/haremicro/common/util/sync"
+	"github.com/go-hare/haremicro/common/util/threading"
+	"github.com/go-hare/haremicro/logger"
 )
 
 type (

@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/kong11213613/haremicro/runtime/local/build"
+	"github.com/go-hare/haremicro/runtime/local/build"
 )
 
 type Builder struct {

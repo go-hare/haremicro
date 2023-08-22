@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/kong11213613/haremicro/common/util/threading"
-	"github.com/kong11213613/haremicro/logger"
+	"github.com/go-hare/haremicro/common/util/threading"
+	"github.com/go-hare/haremicro/logger"
 )
 
 const (

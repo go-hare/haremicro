@@ -16,10 +16,10 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 
-	maddr "github.com/kong11213613/haremicro/common/util/addr"
-	"github.com/kong11213613/haremicro/common/util/buf"
-	mnet "github.com/kong11213613/haremicro/common/util/net"
-	mtls "github.com/kong11213613/haremicro/common/util/tls"
+	maddr "github.com/go-hare/haremicro/common/util/addr"
+	"github.com/go-hare/haremicro/common/util/buf"
+	mnet "github.com/go-hare/haremicro/common/util/net"
+	mtls "github.com/go-hare/haremicro/common/util/tls"
 )
 
 type httpTransport struct {

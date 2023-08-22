@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
+	"github.com/go-hare/haremicro/client"
+	"github.com/go-hare/haremicro/errors"
+	"github.com/go-hare/haremicro/server"
 	"github.com/juju/ratelimit"
-	"github.com/kong11213613/haremicro/client"
-	"github.com/kong11213613/haremicro/errors"
-	"github.com/kong11213613/haremicro/server"
 )
 
 type clientWrapper struct {

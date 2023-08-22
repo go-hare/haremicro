@@ -6,8 +6,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/kong11213613/haremicro/common/util/lang"
-	merrors "github.com/kong11213613/haremicro/errors"
+	"github.com/go-hare/haremicro/common/util/lang"
+	merrors "github.com/go-hare/haremicro/errors"
 )
 
 const (

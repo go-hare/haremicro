@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/kong11213613/haremicro/codec"
+	"github.com/go-hare/haremicro/codec"
 )
 
 type Options struct {

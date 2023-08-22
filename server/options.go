@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kong11213613/haremicro/broker"
-	"github.com/kong11213613/haremicro/codec"
-	"github.com/kong11213613/haremicro/debug/trace"
-	"github.com/kong11213613/haremicro/registry"
-	"github.com/kong11213613/haremicro/transport"
+	"github.com/go-hare/haremicro/broker"
+	"github.com/go-hare/haremicro/codec"
+	"github.com/go-hare/haremicro/debug/trace"
+	"github.com/go-hare/haremicro/registry"
+	"github.com/go-hare/haremicro/transport"
 )
 
 type Options struct {

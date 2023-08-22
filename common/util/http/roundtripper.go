@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/kong11213613/haremicro/selector"
+	"github.com/go-hare/haremicro/selector"
 )
 
 type roundTripper struct {

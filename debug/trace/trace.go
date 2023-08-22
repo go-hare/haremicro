@@ -5,7 +5,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/kong11213613/haremicro/metadata"
+	"github.com/go-hare/haremicro/metadata"
 )
 
 // Tracer is an interface for distributed tracing

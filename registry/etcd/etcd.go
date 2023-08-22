@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kong11213613/haremicro/logger"
-	"github.com/kong11213613/haremicro/registry"
+	"github.com/go-hare/haremicro/logger"
+	"github.com/go-hare/haremicro/registry"
 	hash "github.com/mitchellh/hashstructure"
 	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 	"go.etcd.io/etcd/client/v3"

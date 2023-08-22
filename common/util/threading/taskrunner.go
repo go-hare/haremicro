@@ -1,8 +1,8 @@
 package threading
 
 import (
-	"github.com/kong11213613/haremicro/common/util/lang"
-	"github.com/kong11213613/haremicro/common/util/rescue"
+	"github.com/go-hare/haremicro/common/util/lang"
+	"github.com/go-hare/haremicro/common/util/rescue"
 )
 
 // A TaskRunner is used to control the concurrency of goroutines.

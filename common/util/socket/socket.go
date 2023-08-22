@@ -4,7 +4,7 @@ package socket
 import (
 	"io"
 
-	"github.com/kong11213613/haremicro/transport"
+	"github.com/go-hare/haremicro/transport"
 )
 
 // Socket is our pseudo socket for transport.Socket

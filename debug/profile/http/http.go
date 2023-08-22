@@ -7,7 +7,7 @@ import (
 	"net/http/pprof"
 	"sync"
 
-	"github.com/kong11213613/haremicro/debug/profile"
+	"github.com/go-hare/haremicro/debug/profile"
 )
 
 type httpProfile struct {

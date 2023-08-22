@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kong11213613/haremicro/common/stores/redis"
-	"github.com/kong11213613/haremicro/logger"
+	"github.com/go-hare/haremicro/common/stores/redis"
+	"github.com/go-hare/haremicro/logger"
 	xrate "golang.org/x/time/rate"
 )
 

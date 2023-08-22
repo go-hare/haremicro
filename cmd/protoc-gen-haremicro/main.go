@@ -58,8 +58,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/kong11213613/haremicro/cmd/protoc-gen-haremicro/generator"
-	_ "github.com/kong11213613/haremicro/cmd/protoc-gen-haremicro/plugin/haremicro"
+	"github.com/go-hare/haremicro/cmd/protoc-gen-haremicro/generator"
+	_ "github.com/go-hare/haremicro/cmd/protoc-gen-haremicro/plugin/haremicro"
 	"google.golang.org/protobuf/proto"
 )
 

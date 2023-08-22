@@ -1,7 +1,7 @@
 package selector
 
 import (
-	"github.com/kong11213613/haremicro/registry"
+	"github.com/go-hare/haremicro/registry"
 )
 
 // FilterEndpoint is an endpoint based Select Filter which will

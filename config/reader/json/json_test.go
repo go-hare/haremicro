@@ -3,7 +3,7 @@ package json
 import (
 	"testing"
 
-	"github.com/kong11213613/haremicro/config/source"
+	"github.com/go-hare/haremicro/config/source"
 )
 
 func TestReader(t *testing.T) {

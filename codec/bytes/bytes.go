@@ -6,7 +6,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/kong11213613/haremicro/codec"
+	"github.com/go-hare/haremicro/codec"
 )
 
 type Codec struct {

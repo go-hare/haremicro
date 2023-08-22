@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/go-hare/haremicro/logger"
 	"github.com/google/uuid"
-	"github.com/kong11213613/haremicro/logger"
 )
 
 var (

@@ -4,8 +4,8 @@ package loader
 import (
 	"context"
 
-	"github.com/kong11213613/haremicro/config/reader"
-	"github.com/kong11213613/haremicro/config/source"
+	"github.com/go-hare/haremicro/config/reader"
+	"github.com/go-hare/haremicro/config/source"
 )
 
 // Loader manages loading sources

@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/kong11213613/haremicro/common/util/collection/rollingwindow"
-	mmath "github.com/kong11213613/haremicro/common/util/math"
+	"github.com/go-hare/haremicro/common/util/collection/rollingwindow"
+	mmath "github.com/go-hare/haremicro/common/util/math"
 )
 
 const (

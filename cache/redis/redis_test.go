@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kong11213613/haremicro/cache"
+	"github.com/go-hare/haremicro/cache"
 )
 
 var (

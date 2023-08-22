@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/kong11213613/haremicro/runtime/local/source"
+	"github.com/go-hare/haremicro/runtime/local/source"
 )
 
 type Source struct {

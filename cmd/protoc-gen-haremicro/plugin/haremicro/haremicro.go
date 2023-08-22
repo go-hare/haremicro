@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kong11213613/haremicro/cmd/protoc-gen-haremicro/generator"
+	"github.com/go-hare/haremicro/cmd/protoc-gen-haremicro/generator"
 	options "google.golang.org/genproto/googleapis/api/annotations"
 	"google.golang.org/protobuf/proto"
 	pb "google.golang.org/protobuf/types/descriptorpb"
@@ -15,10 +15,10 @@ import (
 // Paths for packages used by code generated in this file,
 // relative to the import_prefix of the generator.Generator.
 const (
-	apiPkgPath     = "github.com/kong11213613/haremicro/api"
+	apiPkgPath     = "github.com/go-hare/haremicro/api"
 	contextPkgPath = "context"
-	clientPkgPath  = "github.com/kong11213613/haremicro/client"
-	serverPkgPath  = "github.com/kong11213613/haremicro/server"
+	clientPkgPath  = "github.com/go-hare/haremicro/client"
+	serverPkgPath  = "github.com/go-hare/haremicro/server"
 )
 
 func init() {

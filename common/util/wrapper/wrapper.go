@@ -4,12 +4,12 @@ import (
 	"context"
 	"strings"
 
-	"github.com/kong11213613/haremicro/auth"
-	"github.com/kong11213613/haremicro/client"
-	"github.com/kong11213613/haremicro/debug/stats"
-	"github.com/kong11213613/haremicro/debug/trace"
-	"github.com/kong11213613/haremicro/metadata"
-	"github.com/kong11213613/haremicro/server"
+	"github.com/go-hare/haremicro/auth"
+	"github.com/go-hare/haremicro/client"
+	"github.com/go-hare/haremicro/debug/stats"
+	"github.com/go-hare/haremicro/debug/trace"
+	"github.com/go-hare/haremicro/metadata"
+	"github.com/go-hare/haremicro/server"
 )
 
 type fromServiceWrapper struct {

@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/kong11213613/haremicro/broker"
-	"github.com/kong11213613/haremicro/transport"
+	"github.com/go-hare/haremicro/broker"
+	"github.com/go-hare/haremicro/transport"
 )
 
 // event is a broker event we handle on the server transport

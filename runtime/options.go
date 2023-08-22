@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/kong11213613/haremicro/client"
+	"github.com/go-hare/haremicro/client"
 )
 
 type Option func(o *Options)

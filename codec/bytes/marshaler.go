@@ -1,7 +1,7 @@
 package bytes
 
 import (
-	"github.com/kong11213613/haremicro/codec"
+	"github.com/go-hare/haremicro/codec"
 )
 
 type Marshaler struct{}
